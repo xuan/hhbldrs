@@ -2,7 +2,7 @@
 
 Static redesign preview for H&H Builders (hhbldrs.com), a Denver design-build and structural remodeler. It's based on the client's Digital Marketing & Content Audit (`docs/*.pdf`, local only). After the client approves the look, a second phase converts it into a native WordPress block theme for their **existing self-hosted WordPress** (not WordPress.com), via a staging copy first.
 
-- Repo: `xuan/hhbldrs` (public). Preview: https://xuan.github.io/hhbldrs/
+- Repo: `xuan/hhbldrs` (public). Preview: <https://xuan.github.io/hhbldrs/>
 - Deploy: push to `main` → `.github/workflows/pages.yml` builds, checks and publishes `dist/`.
 
 ## Commands
