@@ -1,0 +1,47 @@
+<form class="form" data-demo-form>
+  <h3>Request a free consultation</h3>
+  <div class="field">
+    <label for="f-name">Name</label>
+    <input id="f-name" name="name" autocomplete="name" required>
+  </div>
+  <div class="field">
+    <label for="f-phone">Phone</label>
+    <input id="f-phone" name="phone" type="tel" autocomplete="tel" required>
+  </div>
+  <div class="field full">
+    <label for="f-email">Email</label>
+    <input id="f-email" name="email" type="email" autocomplete="email" required>
+  </div>
+  <div class="field">
+    <label for="f-type">Project type</label>
+    <select id="f-type" name="type">
+      <option>Addition or pop-top</option>
+      <option>Whole-house remodel</option>
+      <option>Structural remodel (walls, beams)</option>
+      <option>Historic home remodel</option>
+      <option>Kitchen remodel</option>
+      <option>Accessible / aging-in-place</option>
+      <option>Not sure yet</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="f-budget">Budget range <span class="hint">(optional)</span></label>
+    <select id="f-budget" name="budget">
+      <option value="">Prefer to discuss</option>
+      <option>Under $150k</option>
+      <option>$150k&ndash;$300k</option>
+      <option>$300k&ndash;$600k</option>
+      <option>$600k+</option>
+    </select>
+  </div>
+  <div class="field full">
+    <label for="f-notes">What would you like to change? <span class="hint">(optional)</span></label>
+    <textarea id="f-notes" name="notes" placeholder="e.g. 1920s brick bungalow in Park Hill, want to open the kitchen and add a primary suite upstairs"></textarea>
+  </div>
+  <button class="btn btn--primary" type="submit">Request consultation</button>
+  <p class="form__note">Demo form. Nothing is sent. On WordPress this becomes a Gravity Forms or WPForms form with conversion tracking.</p>
+  <div class="form__thanks" tabindex="-1" hidden role="status">
+    <h3>Thanks, we&rsquo;ll be in touch soon.</h3>
+    <p>(Demo: no data was sent.)</p>
+  </div>
+</form>

@@ -1,0 +1,9 @@
+# build output (GitHub Actions builds and deploys it)
+dist/
+
+# client's private audit document: never commit to this public repo
+docs/*.pdf
+
+.DS_Store
+__pycache__/
+*.pyc

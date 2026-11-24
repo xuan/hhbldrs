@@ -1,0 +1,29 @@
+<div class="announce" role="region" aria-label="Announcement">
+  <p>New case study: a Denver pop-top that went from roof-off to move-in in eight months. <a href="{{root}}projects/clay-street-pop-top.html">Read the Clay Street story <span aria-hidden="true">&rarr;</span></a></p>
+</div>
+<header class="site-header" data-header>
+  <div class="site-header__inner">
+    <a class="brand" href="{{root}}index.html" aria-label="H&amp;H Builders home">
+      <img src="{{root}}assets/logo-mark.svg" alt="" width="44" height="26">
+      <span class="brand__name">H&amp;H Builders</span>
+      <span class="brand__tag">Design-build &middot; Est. 1998</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+      <span class="nav-toggle__bars" aria-hidden="true"></span>
+      <span class="nav-toggle__label">Menu</span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="{{root}}services/index.html" {{cur_services}}>Services</a></li>
+        <li><a href="{{root}}projects/index.html" {{cur_projects}}>Projects</a></li>
+        <li><a href="{{root}}design-build.html" {{cur_design_build}}>Design-Build Guide</a></li>
+        <li><a href="{{root}}about.html" {{cur_about}}>About</a></li>
+        <li><a href="{{root}}faq.html" {{cur_faq}}>FAQ</a></li>
+      </ul>
+      <div class="primary-nav__cta">
+        <a class="phone-link" href="{{phone_href}}">{{phone}}</a>
+        <a class="btn btn--primary" href="{{root}}contact.html" {{cur_contact}}>Request a consultation</a>
+      </div>
+    </nav>
+  </div>
+</header>
